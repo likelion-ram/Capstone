@@ -32,6 +32,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:id="@+id/makebutton"
-        android:text="makee"/>
+        android:text="testmakeeee"/>
 
 </android.support.constraint.ConstraintLayout>
