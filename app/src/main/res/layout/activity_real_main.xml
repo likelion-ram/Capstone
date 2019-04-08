@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/frame">
 
-            <com.android.jol4.SelectScope
+            <com.android.test_jol.DrawRect
                 android:id="@+id/circlescope"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"/>
@@ -33,7 +33,22 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:id="@+id/makebutton"
+        android:onClick="onClickMake"
+        android:id="@+id/makebtn"
         android:text="makeeee"/>
+
+    <Button
+        android:id="@+id/viewerbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="onClickViewer"
+        android:text="Gif Viewer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
